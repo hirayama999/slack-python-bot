@@ -2,7 +2,7 @@ name: Daily Python Bot
 
 on:
   schedule:
-    - cron: '* * * * *'  # 毎分実行
+    - cron: '0 * * * *'  # 毎分実行
   workflow_dispatch:  # 手動実行も可能
 
 jobs:
