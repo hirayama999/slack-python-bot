@@ -2,8 +2,8 @@ name: Daily Python Bot
 
 on:
   schedule:
-    - cron: '0 23 * * *'  # 日本時間8時に実行（UTC23時）
-  workflow_dispatch:       # 手動実行も可能
+    - cron: '0 * * * *'  # 毎時0分に実行
+  workflow_dispatch:  # 手動実行も可能
 
 jobs:
   run-bot:
